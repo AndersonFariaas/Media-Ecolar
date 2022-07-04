@@ -11,7 +11,6 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .container{
     width: 350px;
@@ -29,17 +28,19 @@ h1{
     width: 60px;
     padding: 2px;
     margin: 10px auto;
-    outline: none;
+    text-align: center;
 }
 .nota2{
     width: 60px;
     padding: 2px;
     margin: 10px auto;
+    text-align: center;
 }
 .nota3{
     width: 60px;
     padding: 2px;
     margin: 10px auto;
+    text-align: center;
 }
 .botaoCalcular{
     padding: 10px 20px;
@@ -47,10 +48,12 @@ h1{
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
-    background-color: greenyellow;
+    background-color: gray;
+    color: white;
 }
 .botaoCalcular:hover{
-    box-shadow: 0px 0px 50px greenyellow;
+    box-shadow: 0px 0px 20px green;
+    color: chartreuse;
 }
 .resultado{
     width: 350px;
