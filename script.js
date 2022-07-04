@@ -7,6 +7,14 @@ function calcular(){
     let media = (num1 + num2 + num3) / 3;
 
     let resultado = document.querySelector('div.resultado');
-    resultado.innerHTML = `<p>Sua media escolar é <strong>${media.toFixed(1)}</strong> pontos.</p>`
-
-}
+    
+    if (media >= 7 && media <= 10){
+        resultado.innerHTML = `<p>Sua media escolar é <strong>${media.toFixed(1)}</strong> pontos. <br> Voce está aprovado com Sucesso!</p>`;
+    }
+    if (media >= 5 && media <= 6.9){
+        resultado.innerHTML = `<p>Sua media escolar é <strong>${media.toFixed(1)}</strong> pontos. <br> Voce está aprovado, mas precisa melhorar!`;
+    }
+    if (media < 4.9){
+        resultado.innerHTML = `<p>Sua media escolar é <strong>${media.toFixed(1)}</strong> pontos. <br> Voce está reprovado!`;
+    }else{};
+};
