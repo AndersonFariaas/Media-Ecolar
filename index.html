@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Media Escolar</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Media Escolar</h1>
+
+            <label for="nota01">Nota do 1º período</label>
+            <input type="number" id="nota01" class="nota1" max="10" min="0">
+
+            <label for="nota02">Nota do 2º período</label>
+            <input type="number" id="nota02" class="nota2" max="10" min="0">
+
+            <label for="nota03">Nota do 3° período</label>
+            <input type="number" id="nota03" class="nota3" max="10" min="0">
+
+            <input type="button" value="Calcular" onclick="calcular()" class="botaoCalcular">
+        </div>
+        <div class="resultado">
+
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
